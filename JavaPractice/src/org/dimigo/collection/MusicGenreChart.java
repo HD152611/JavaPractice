@@ -18,14 +18,17 @@ public class MusicGenreChart {
 		map.put("´í½º", list2);
 		System.out.println("--<<¸á·Ð Àå¸£º° Ã­Æ®>>--");
 		printMap(map);
+		
 		System.out.println("\n--<<¸á·Ð 2À§ °î º¯°æ>>--");
 		list2.set(1, new Music("SIGNAL","Æ®¿ÍÀÌ½º"));
 		map.put("´í½º", list2);
 		printMap(map);
+		
 		System.out.println("\n--<<´í½º 1À§ °î »èÁ¦>>--");
 		list2.remove(0);
 		map.put("´í½º", list2);
 		printMap(map);
+		
 		System.out.println("\n--<<ÀüÃ¼ ¸®½ºÆ® »èÁ¦>>--");
 		map.clear();
 		printMap(map);
